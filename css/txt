@@ -1,0 +1,47 @@
+.sidebar-soc{
+	display: flex;
+	/* justify-content: center; */
+	text-align: center;
+	position: fixed;
+	width: 200px;
+	height: 150px;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	background-color: blue;
+	padding: unset;
+}
+.hover{
+	position: relative;
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: antiquewhite;
+	color: #c9393c;
+	/* height: 100%; */
+	
+}
+.hover-me{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%) rotate(90deg);
+	width: 130px;
+	font: 25px bold;
+	/* transform: rotateY(90deg); */
+
+}
+.wrap-soc{
+	display: flex;
+	width: 150px;
+	background-color: pink;
+}
+.in-soc{
+	display: flex;
+	flex: 0 1 50px;
+}
+.in-soc>li{
+	width: 40px;
+	height: 40px;
+	background-color: orangered;
+}
